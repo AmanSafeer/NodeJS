@@ -1,0 +1,27 @@
+h1{
+    font-size:35px;
+    color:rgb(2, 118, 122);
+    
+}
+h2{
+    color:gray;
+    font-weight:normal 
+}
+.editingFormContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: absolute;
+    background: rgb(2, 118, 122,0.7);
+    overflow: hidden;
+    z-index: 1;
+    
+
+}
+.editingForm{ 
+    background: white;
+    padding: 10px;
+    box-shadow: 0px 0px 10px 0px lightgray;
+    margin: 20px;
+}
